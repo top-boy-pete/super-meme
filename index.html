@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Make a memory that lasts. Choose your fan card for an unforgettable celebrity meet and greet."
+    />
+    <meta name="theme-color" content="#11100f" />
+    <title>Meet Your Favorite Star — Fan Experiences</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#home" aria-label="Fan Moments home">
+        <span class="wordmark-icon" aria-hidden="true">✦</span>
+        FAN MOMENTS
+      </a>
+      <a class="header-link" href="#fan-cards">
+        Explore fan cards <span aria-hidden="true">↗</span>
+      </a>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> A moment just for you</p>
+          <h1>Closer to the<br />ones you <em>admire.</em></h1>
+          <p class="hero-description">
+            More than a hello. Make a memory, share a smile, and meet your
+            favorite star in a moment made for the fans.
+          </p>
+          <a class="button button-gold" href="#fan-cards">
+            Find your fan card <span aria-hidden="true">↓</span>
+          </a>
+          <div class="hero-note">
+            <span class="note-star" aria-hidden="true">✳</span>
+            <span>Three ways to make it unforgettable</span>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="A spotlight shining on a special fan moment">
+          <div class="art-orbit orbit-one"></div>
+          <div class="art-orbit orbit-two"></div>
+          <div class="art-glow"></div>
+          <div class="art-monogram" aria-hidden="true">YOU<br /><span>&amp;</span><br />THE STAR</div>
+          <div class="art-caption">
+            <span class="caption-line"></span>
+            <span>YOUR MOMENT<br /><strong>AWAITS</strong></span>
+          </div>
+          <span class="art-spark spark-one" aria-hidden="true">✦</span>
+          <span class="art-spark spark-two" aria-hidden="true">✧</span>
+          <span class="art-spark spark-three" aria-hidden="true">✳</span>
+        </div>
+
+        <div class="hero-bottom">
+          <span>ONE FAN. ONE STAR. ONE UNFORGETTABLE MOMENT.</span>
+          <a href="#fan-cards" aria-label="Scroll to fan cards">SCROLL TO EXPLORE ↓</a>
+        </div>
+      </section>
+
+      <section class="cards-section" id="fan-cards">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span></span> Choose your experience</p>
+            <h2>Your pass to a<br /><em>personal moment.</em></h2>
+          </div>
+          <p class="section-intro">
+            Pick the fan card that feels right for you. Your agent will help
+            with the next steps personally on WhatsApp.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <article class="fan-card">
+            <div class="card-topline">
+              <span class="card-number">01 / THE FIRST HELLO</span>
+              <span class="card-icon" aria-hidden="true">✧</span>
+            </div>
+            <h3>Basic</h3>
+            <p class="card-description">A lovely little moment, all your own.</p>
+            <p class="card-price"><span>$</span>299.99 <small>USD</small></p>
+            <div class="card-divider"></div>
+            <ul class="benefits">
+              <li><span>✦</span> Meet &amp; greet access</li>
+              <li><span>✦</span> A personal photo moment</li>
+              <li><span>✦</span> Digital fan card</li>
+            </ul>
+            <button class="button button-outline" data-card="Basic" type="button">
+              Choose Basic <span aria-hidden="true">↗</span>
+            </button>
+          </article>
+
+          <article class="fan-card featured">
+            <div class="popular-label"><span>✦</span> FAN FAVORITE</div>
+            <div class="card-topline">
+              <span class="card-number">02 / THE EXTRA MOMENT</span>
+              <span class="card-icon" aria-hidden="true">✦</span>
+            </div>
+            <h3>Standard</h3>
+            <p class="card-description">A little more time with your favorite.</p>
+            <p class="card-price"><span>$</span>499.99 <small>USD</small></p>
+            <div class="card-divider"></div>
+            <ul class="benefits">
+              <li><span>✦</span> Everything in Basic</li>
+              <li><span>✦</span> Priority meet &amp; greet access</li>
+              <li><span>✦</span> Signed keepsake</li>
+            </ul>
+            <button class="button button-gold" data-card="Standard" type="button">
+              Choose Standard <span aria-hidden="true">↗</span>
+            </button>
+          </article>
+
+          <article class="fan-card">
+            <div class="card-topline">
+              <span class="card-number">03 / THE VIP MEMORY</span>
+              <span class="card-icon" aria-hidden="true">✹</span>
+            </div>
+            <h3>Premium</h3>
+            <p class="card-description">The most personal fan experience.</p>
+            <p class="card-price"><span>$</span>1,199.99 <small>USD</small></p>
+            <div class="card-divider"></div>
+            <ul class="benefits">
+              <li><span>✦</span> Everything in Standard</li>
+              <li><span>✦</span> Extended one-on-one time</li>
+              <li><span>✦</span> Premium keepsake package</li>
+            </ul>
+            <button class="button button-outline" data-card="Premium" type="button">
+              Choose Premium <span aria-hidden="true">↗</span>
+            </button>
+          </article>
+        </div>
+        <p class="fine-print">
+          No payment is collected on this website. Your agent will confirm
+          availability and payment details on WhatsApp.
+        </p>
+      </section>
+
+      <section class="closing">
+        <span class="closing-star" aria-hidden="true">✦</span>
+        <p>The best stories start with a hello.</p>
+        <a href="#fan-cards">Choose your fan card <span aria-hidden="true">↑</span></a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark" href="#home">
+        <span class="wordmark-icon" aria-hidden="true">✦</span>
+        FAN MOMENTS
+      </a>
+      <span>Made for the fans, with love.</span>
+      <span>© <span id="current-year"></span> Fan Moments</span>
+    </footer>
+
+    <div class="notice" id="contact-notice" role="status" aria-live="polite"></div>
+  </body>
+</html>
